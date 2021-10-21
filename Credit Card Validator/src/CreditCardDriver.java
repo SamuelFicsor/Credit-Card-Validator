@@ -11,7 +11,7 @@ public class CreditCardDriver
 	
 	public static void main(String[] args) throws IOException
 	{
-		Scanner file = new Scanner(new File("CreditCardNumbers.txt"));
+		Scanner file = new Scanner(new File("credit-card-numbers-real.txt"));
 		while(file.hasNext())
 			{
 				digitStrip(file.nextLong());
